@@ -1,9 +1,10 @@
 ---
-title: Tools
+title: Core
 icon: lightbulb
 author: evilsp
 ---
 
+# 本文件夹应该包含什么内容?
 # 本文件夹应该包含什么内容?
 
 本文件夹下只应该包含 Linux 内核及其相关内容

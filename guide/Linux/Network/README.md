@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Network
 icon: lightbulb
 author: evilsp
 ---

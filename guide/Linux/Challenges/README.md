@@ -1,5 +1,5 @@
 ---
-title: Tools
+title: Challenges
 icon: lightbulb
 author: evilsp
 ---
