@@ -2,6 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 
 export default hopeTheme({
+
+
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
@@ -51,6 +53,9 @@ export default hopeTheme({
   plugins: {
     backToTop: true,
     searchPro: true,
+    copyCode: true,
+    copyright: true,
+    
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",

@@ -6,7 +6,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "Redrock SRE 知识库",
-
+  description: "一起进入SRE的学习之路吧",
 
   theme,
 
