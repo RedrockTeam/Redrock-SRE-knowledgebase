@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "/home/joshua/Documents/kb/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useScriptTag } from "/home/joshua/Documents/kb/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "/home/joshua/Documents/kb/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "/home/joshua/Documents/kb/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "/home/joshua/Documents/kb/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "/home/joshua/Documents/kb/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

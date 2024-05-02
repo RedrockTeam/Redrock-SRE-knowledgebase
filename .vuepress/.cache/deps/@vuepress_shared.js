@@ -1,3 +1,5 @@
+import "./chunk-F3FYYIAV.js";
+
 // node_modules/@vuepress/shared/dist/index.js
 var TAGS_ALLOWED = ["link", "meta", "script", "style", "noscript", "template"];
 var TAGS_UNIQUE = ["title", "base"];

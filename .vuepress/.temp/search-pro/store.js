@@ -1,0 +1,1 @@
+export const store = ["/","/linux/","/linux/env-conf/","/linux/linux-base/","/linux/linux-base/linux-concepts/how-to-learn-linux.html","/linux/linux-base/linux-concepts/","/linux/linux-base/linux-concepts/what-is-linux.html","/linux/linux-base/server-concepts/","/404.html"];

@@ -1,14 +1,14 @@
 import { defineClientConfig } from "vuepress/client";
 
 
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "/home/joshua/Documents/kb/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "/home/joshua/Documents/kb/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { GlobalEncrypt, LocalEncrypt } from "/home/joshua/Documents/kb/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/home/joshua/Documents/kb/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { GlobalEncrypt, LocalEncrypt } from "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "/home/joshua/Documents/kb/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "C:/Users/sisuh/Redrock-SRE-knowledgebase/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

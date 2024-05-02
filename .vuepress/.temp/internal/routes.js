@@ -1,19 +1,15 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/index.html.js"), meta: {"t":"主页","i":"home"} }],
-  ["/guide/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/guide/index.html.js"), meta: {"t":"指南","i":"lightbulb"} }],
-  ["/demo/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/index.html.js"), meta: {"t":"主要功能与配置演示","i":"laptop-code"} }],
-  ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "disable.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"t":"布局与功能禁用","i":"gears","O":4} }],
-  ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "encrypt.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"t":"密码加密的文章","i":"lock"} }],
-  ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "layout.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"t":"布局","i":"object-group","O":2} }],
-  ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "markdown.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"t":"Markdown 展示","i":"fab fa-markdown","O":2} }],
-  ["/demo/page.html", { loader: () => import(/* webpackChunkName: "page.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/demo/page.html.js"), meta: {"t":"页面配置","i":"file","O":3} }],
-  ["/guide/bar/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/guide/bar/index.html.js"), meta: {"t":"Bar 功能","i":"lightbulb"} }],
-  ["/guide/bar/baz.html", { loader: () => import(/* webpackChunkName: "baz.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/guide/bar/baz.html.js"), meta: {"t":"Baz","i":"circle-info"} }],
-  ["/guide/foo/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/guide/foo/index.html.js"), meta: {"t":"Foo 功能","i":"lightbulb"} }],
-  ["/guide/foo/ray.html", { loader: () => import(/* webpackChunkName: "ray.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/guide/foo/ray.html.js"), meta: {"t":"Ray","i":"circle-info"} }],
-  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/joshua/Documents/kb/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/index.html.js"), meta: {"t":"主页","i":"home"} }],
+  ["/linux/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/index.html.js"), meta: {"t":"二. IaaS运维篇简介"} }],
+  ["/linux/env-conf/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/env-conf/index.html.js"), meta: {"t":"入门需要进行哪些环境配置","O":1} }],
+  ["/linux/linux-base/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/linux-base/index.html.js"), meta: {"t":"服务器运维篇简介","O":2} }],
+  ["/linux/linux-base/linux-concepts/how-to-learn-linux.html", { loader: () => import(/* webpackChunkName: "how-to-learn-linux.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/linux-base/linux-concepts/how-to-learn-linux.html.js"), meta: {"t":"如何学习Linux","O":1} }],
+  ["/linux/linux-base/linux-concepts/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/linux-base/linux-concepts/index.html.js"), meta: {"t":"Linux简介","O":1} }],
+  ["/linux/linux-base/linux-concepts/what-is-linux.html", { loader: () => import(/* webpackChunkName: "what-is-linux.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/linux-base/linux-concepts/what-is-linux.html.js"), meta: {"t":"介绍什么是linux","O":null} }],
+  ["/linux/linux-base/server-concepts/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/linux/linux-base/server-concepts/index.html.js"), meta: {"t":"","O":2} }],
+  ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/sisuh/Redrock-SRE-knowledgebase/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
 ]);
 
 if (import.meta.webpackHot) {
