@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 export default hopeTheme({
 
 
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://sre-docs.redrock.team",
 
   author: {
     name: "sre@redrock.team",
