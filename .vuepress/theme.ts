@@ -27,6 +27,7 @@ export default hopeTheme({
   },
   // 侧边栏
   sidebar: {
+    "/devops/go": "structure"
   },
 
   // 页脚
