@@ -152,14 +152,14 @@ export default navbar([
     icon: "/assets/icon/dev.svg",
     children: [
       {
-        text: "python",
+        text: "Python",
         icon: "/assets/icon/python.svg",
         link: "/iaas-base/network-engineer/"
       },
       {
-        text: "golang",
+        text: "Golang",
         icon: "/assets/icon/golang.svg",
-        link: "/iaas-base/network-engineer/"
+        link: "/devops/go/"
       },
       {
         text: "开发场景整理",
