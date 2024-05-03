@@ -5,7 +5,7 @@ icon: home
 title: 主页
 heroText: Redrock SRE 知识库
 bgImage: /assets/image/bgs/daylight.png
-bgImageDark: /night1.png
+bgImageDark: /assets/image/bgs/night.png
 
 
 heroFullScreen: true
